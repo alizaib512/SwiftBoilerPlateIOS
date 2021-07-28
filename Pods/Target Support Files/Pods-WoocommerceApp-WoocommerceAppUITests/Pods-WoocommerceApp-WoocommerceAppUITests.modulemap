@@ -1,0 +1,6 @@
+framework module Pods_WoocommerceApp_WoocommerceAppUITests {
+  umbrella header "Pods-WoocommerceApp-WoocommerceAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

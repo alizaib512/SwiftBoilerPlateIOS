@@ -1,0 +1,55 @@
+PODS:
+  - Alamofire (5.4.3)
+  - CBFlashyTabBarController (0.8.3)
+  - EVReflection (5.10.1):
+    - EVReflection/Core (= 5.10.1)
+  - EVReflection/Core (5.10.1)
+  - ImageSlideshow/Core (1.9.2)
+  - ImageSlideshow/SDWebImage (1.9.2):
+    - ImageSlideshow/Core
+    - SDWebImage (>= 3.7)
+  - IQKeyboardManager (6.2.0)
+  - LGSideMenuController (3.1.1)
+  - lottie-ios (3.2.3)
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - CBFlashyTabBarController
+  - EVReflection
+  - ImageSlideshow/SDWebImage
+  - IQKeyboardManager (= 6.2.0)
+  - LGSideMenuController
+  - lottie-ios
+  - SDWebImage (= 4.4.5)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CBFlashyTabBarController
+    - EVReflection
+    - ImageSlideshow
+    - IQKeyboardManager
+    - LGSideMenuController
+    - lottie-ios
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  CBFlashyTabBarController: bc6b11dd4cbc9b54785c8944156e2f4d4f03b088
+  EVReflection: 8124de482178d34ccd56473e16cd95990f9a1113
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  LGSideMenuController: 04c679441ea9a9ba5df6a48a5b43b340a1d5caaa
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: ca08a8f9a393f13e9f84e9c6530a516441b03725
+
+COCOAPODS: 1.10.1
