@@ -8,13 +8,16 @@ target 'WoocommerceApp' do
   # Pods for WoocommerceApp
   pod 'CBFlashyTabBarController'
   pod 'LGSideMenuController'
-  pod 'Alamofire', '~> 5.2'
+  pod 'Alamofire', '4.8.1'
   pod 'lottie-ios'
   pod 'EVReflection'
   pod 'SDWebImage', '4.4.5'
   pod "ImageSlideshow/SDWebImage"
   pod 'SwiftyJSON'
   pod 'IQKeyboardManager', '6.2.0'
+  pod 'ImageSlideshow', '~> 1.9.0'
+  pod 'ViewPager-Swift'
+
   target 'WoocommerceAppTests' do
     inherit! :search_paths
     # Pods for testing
