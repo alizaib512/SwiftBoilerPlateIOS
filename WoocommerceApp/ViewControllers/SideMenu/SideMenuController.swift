@@ -18,10 +18,8 @@ class SideMenuController: LGSideMenuController {
         rightViewPresentationStyle = .slideBelowShifted
         
         do {
-            // For Demo .usageInsideNavigationController
             navigationItem.title = "LGSideMenuController"
             navigationItem.leftBarButtonItem = UIBarButtonItem(image: menuIconImage, style: .plain, target: self, action: #selector(showLeftViewAction(sender:)))
-          //  navigationItem.rightBarButtonItem = UIBarButtonItem(image: menuIconImage, style: .plain, target: self, action: #selector(showRightViewAction(sender:)))
         }
     }
   

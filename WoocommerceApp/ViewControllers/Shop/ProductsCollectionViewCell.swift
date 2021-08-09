@@ -9,5 +9,7 @@ import UIKit
 
 class ProductsCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var cellView: UIView!
+    @IBOutlet weak var imgProduct: UIImageView!
+    @IBOutlet weak var lblProductName: UILabel!
     
 }

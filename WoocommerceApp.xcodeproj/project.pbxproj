@@ -47,6 +47,12 @@
 		6A678EF226B172D900ACD2FA /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A678EF126B172D900ACD2FA /* SideMenuController.swift */; };
 		6A678EF726B1760A00ACD2FA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A678EF626B1760A00ACD2FA /* Helper.swift */; };
 		6A905CC326B193C5009CDF01 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A905CC226B193C5009CDF01 /* AppConfig.swift */; };
+		6AAE60C426BD70DB00EDEE12 /* loadingcard.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE60C326BD70DB00EDEE12 /* loadingcard.json */; };
+		6AAE60CB26BD828500EDEE12 /* LeftViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE60C926BD828500EDEE12 /* LeftViewCell.swift */; };
+		6AAE60CC26BD828500EDEE12 /* LeftViewCellBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE60CA26BD828500EDEE12 /* LeftViewCellBackgroundView.swift */; };
+		6ABA729F26BD44C400A864D1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA729E26BD44C400A864D1 /* DataManager.swift */; };
+		6ABA72A426BD514800A864D1 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA72A326BD514800A864D1 /* CommonMethods.swift */; };
+		6ABA72D426BD6A6200A864D1 /* loder.json in Resources */ = {isa = PBXBuildFile; fileRef = 6ABA72D326BD6A6200A864D1 /* loder.json */; };
 		9F4C518213C2CF6823A66E5F /* Pods_WoocommerceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A133E5C176CBA08A3E19D06D /* Pods_WoocommerceApp.framework */; };
 		F7513545583535F3BA586061 /* Pods_WoocommerceAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790CE2E8A9363CD2ED35BE5D /* Pods_WoocommerceAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -118,6 +124,12 @@
 		6A678EF126B172D900ACD2FA /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
 		6A678EF626B1760A00ACD2FA /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		6A905CC226B193C5009CDF01 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		6AAE60C326BD70DB00EDEE12 /* loadingcard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loadingcard.json; sourceTree = "<group>"; };
+		6AAE60C926BD828500EDEE12 /* LeftViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewCell.swift; sourceTree = "<group>"; };
+		6AAE60CA26BD828500EDEE12 /* LeftViewCellBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewCellBackgroundView.swift; sourceTree = "<group>"; };
+		6ABA729E26BD44C400A864D1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		6ABA72A326BD514800A864D1 /* CommonMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		6ABA72D326BD6A6200A864D1 /* loder.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loder.json; sourceTree = "<group>"; };
 		790CE2E8A9363CD2ED35BE5D /* Pods_WoocommerceAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoocommerceAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84951616CC70AC9CC57ACCA0 /* Pods-WoocommerceAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoocommerceAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WoocommerceAppTests/Pods-WoocommerceAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C71C4E211522D1A35BDD487 /* Pods-WoocommerceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoocommerceApp.release.xcconfig"; path = "Target Support Files/Pods-WoocommerceApp/Pods-WoocommerceApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,6 +168,7 @@
 		6A23199326B2A86600685864 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				6ABA72A326BD514800A864D1 /* CommonMethods.swift */,
 				6A2319E626B2D78400685864 /* Extensions.swift */,
 			);
 			path = Extensions;
@@ -175,6 +188,7 @@
 				6A23199E26B2B7C200685864 /* Constants.swift */,
 				6A2319A026B2B7C200685864 /* HttpClient.swift */,
 				6A23199F26B2B7C200685864 /* WebApi.swift */,
+				6ABA729E26BD44C400A864D1 /* DataManager.swift */,
 			);
 			path = ApiServices;
 			sourceTree = "<group>";
@@ -263,6 +277,7 @@
 		6A678E7E26B1600F00ACD2FA /* WoocommerceApp */ = {
 			isa = PBXGroup;
 			children = (
+				6ABA72D226BD6A5400A864D1 /* LottieFiles */,
 				6A2319A726B2B9C300685864 /* Models */,
 				6A23199D26B2B76F00685864 /* ApiServices */,
 				6A905D0926B19E4A009CDF01 /* StoryBoard */,
@@ -336,6 +351,8 @@
 			children = (
 				6A678EF626B1760A00ACD2FA /* Helper.swift */,
 				6A678ED826B16D6000ACD2FA /* LeftViewController.swift */,
+				6AAE60C926BD828500EDEE12 /* LeftViewCell.swift */,
+				6AAE60CA26BD828500EDEE12 /* LeftViewCellBackgroundView.swift */,
 				6A678EF126B172D900ACD2FA /* SideMenuController.swift */,
 			);
 			path = SideMenu;
@@ -356,6 +373,15 @@
 				6A678E8A26B1601000ACD2FA /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		6ABA72D226BD6A5400A864D1 /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA72D326BD6A6200A864D1 /* loder.json */,
+				6AAE60C326BD70DB00EDEE12 /* loadingcard.json */,
+			);
+			path = LottieFiles;
 			sourceTree = "<group>";
 		};
 		92357CE5A9A3E22229DBB0E0 /* Pods */ = {
@@ -489,8 +515,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ABA72D426BD6A6200A864D1 /* loder.json in Resources */,
 				6A678E8C26B1601000ACD2FA /* LaunchScreen.storyboard in Resources */,
 				6A678E8926B1601000ACD2FA /* Assets.xcassets in Resources */,
+				6AAE60C426BD70DB00EDEE12 /* loadingcard.json in Resources */,
 				6A678E8726B1600F00ACD2FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -622,6 +650,7 @@
 				6A2319E226B2BC9A00685864 /* Reachabilty.swift in Sources */,
 				6A4F919026B95A7C007BD473 /* MainViewController.swift in Sources */,
 				6A4F918F26B95A7C007BD473 /* TestViewController.swift in Sources */,
+				6ABA72A426BD514800A864D1 /* CommonMethods.swift in Sources */,
 				6A4E33FB26BBD6DD00BC8D0E /* BaseViewController.swift in Sources */,
 				6A2319A126B2B7C200685864 /* Constants.swift in Sources */,
 				6A678E8026B1600F00ACD2FA /* AppDelegate.swift in Sources */,
@@ -635,6 +664,7 @@
 				6A23199926B2B6C400685864 /* CategoriesCollectionViewCell.swift in Sources */,
 				6A3A45ED26BAD814003867B0 /* ShopMenuViewController.swift in Sources */,
 				6A3A461526BAE4CE003867B0 /* ContentViewController1.swift in Sources */,
+				6AAE60CB26BD828500EDEE12 /* LeftViewCell.swift in Sources */,
 				6A3A459526BAA044003867B0 /* ProductsCollectionViewCell.swift in Sources */,
 				6A678ED926B16D6000ACD2FA /* LeftViewController.swift in Sources */,
 				6A2319A326B2B7C200685864 /* HttpClient.swift in Sources */,
@@ -650,6 +680,8 @@
 				6A4E348F26BC17EA00BC8D0E /* ContentVC.swift in Sources */,
 				6A678EF726B1760A00ACD2FA /* Helper.swift in Sources */,
 				6A3A459026BA8116003867B0 /* ShopViewController.swift in Sources */,
+				6ABA729F26BD44C400A864D1 /* DataManager.swift in Sources */,
+				6AAE60CC26BD828500EDEE12 /* LeftViewCellBackgroundView.swift in Sources */,
 				6A2319A226B2B7C200685864 /* WebApi.swift in Sources */,
 				6A4E349126BC17EA00BC8D0E /* PageControllerVC.swift in Sources */,
 				6A4E349226BC17EA00BC8D0E /* MenuTabsView.swift in Sources */,

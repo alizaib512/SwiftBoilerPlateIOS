@@ -107,8 +107,14 @@ class HttpClient: NSObject {
                     completion(nil ,NSError(domain: "Server error", code: 0, userInfo: [:]))
                 }
                 else{
-                    let JSON = result as! NSArray
-                    completion(JSON,nil);
+                    
+                    if let JSON = result as? NSArray {
+                        completion(JSON,nil);
+                    }else{
+                        completion(nil ,NSError(domain: "Server error", code: 0, userInfo: [:]))
+                    }
+               
+                    
                 }
             }else{
                 completion(nil ,response.result.error as NSError?);

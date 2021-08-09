@@ -12,7 +12,7 @@ class ProductModel :EVObject{
     var id: String?
     var postAuthor, postDate, postDateGmt, postContent: String?
     var post_title, postExcerpt, postStatus,commentStatus,pingStatus: String?
-    var postPassword, postName, toPing, pinged: String?
+    var postPassword,post_name, toPing, pinged: String?
     var postModified, postModifiedGmt, postContentFiltered,priceHTML: String?
     var postParent: Int?
     var guid,postType,filter: String?

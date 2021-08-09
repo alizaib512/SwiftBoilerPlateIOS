@@ -17,11 +17,14 @@ class ViewController: UIViewController {
     var currentIndex: Int = 0
     var tabs = ["Man","Women","Menu TAB 3","Menu TAB 4","Menu TAB 5","Menu TAB 6"]
     var pageController: UIPageViewController!
+    
+    var productByCategories =  [ProductModel]()
+    var isComingFromHomeIndex :Int?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        menuBarView.dataArray = tabs
+        menuBarView.dataArray = DataManager.shared.allCategoriesData
         menuBarView.isSizeToFitCellsNeeded = true
         menuBarView.collView.backgroundColor = UIColor.init(white: 0.97, alpha: 0.97)
         
@@ -32,35 +35,16 @@ class ViewController: UIViewController {
         pageController.dataSource = self
         
         //For Intial Display
-        menuBarView.collView.selectItem(at: IndexPath.init(item: 0, section: 0), animated: true, scrollPosition: .centeredVertically)
-        pageController.setViewControllers([viewController(At: 0)!], direction: .forward, animated: true, completion: nil)
-        
-        // With CallBack Function...
-        //menuBarView.menuDidSelected = myLocalFunc(_:_:)
+        menuBarView.collView.selectItem(at: IndexPath.init(item: isComingFromHomeIndex ?? 1, section: 0), animated: true, scrollPosition: .centeredVertically)
+        pageController.setViewControllers([viewController(At: isComingFromHomeIndex ?? 1)!], direction: .forward, animated: true, completion: nil)
+
 
     }
-    
-    
-    /*
-     // Call back function
-    func myLocalFunc(_ collectionView: UICollectionView, _ indexPath: IndexPath) {
-        
-        
-        if indexPath.item != currentIndex {
-            
-            if indexPath.item > currentIndex {
-                self.pageController.setViewControllers([viewController(At: indexPath.item)!], direction: .forward, animated: true, completion: nil)
-            }else {
-                self.pageController.setViewControllers([viewController(At: indexPath.item)!], direction: .reverse, animated: true, completion: nil)
-            }
-            
-            menuBarView.collView.scrollToItem(at: IndexPath.init(item: indexPath.item, section: 0), at: .centeredHorizontally, animated: true)
-            
-        }
-        
+
+    @IBAction func btnSideMenu(_ sender: Any) {
+        sideMenuController?.toggleLeftView(animated: true)
     }
-     */
- 
+    
     func presentPageVCOnView() {
         
         self.pageController = storyboard?.instantiateViewController(withIdentifier: "PageControllerVC") as! PageControllerVC
@@ -70,8 +54,7 @@ class ViewController: UIViewController {
         self.pageController.didMove(toParent: self)
         
     }
-    
-    //Present ViewController At The Given Index
+
     
     func viewController(At index: Int) -> UIViewController? {
         
@@ -80,25 +63,17 @@ class ViewController: UIViewController {
         }
         
         let contentVC = storyboard?.instantiateViewController(withIdentifier: "ContentVC") as! ContentVC
-        contentVC.strTitle = tabs[index]
+        contentVC.strTitle = DataManager.shared.allCategoriesData[index]
         contentVC.pageIndex = index
         currentIndex = index
         return contentVC
         
     }
-    
 }
-
-
-
-
-
 extension ViewController: MenuBarDelegate {
 
     func menuBarDidSelectItemAt(menu: MenuTabsView, index: Int) {
 
-        // If selected Index is other than Selected one, by comparing with current index, page controller goes either forward or backward.
-        
         if index != currentIndex {
 
             if index > currentIndex {

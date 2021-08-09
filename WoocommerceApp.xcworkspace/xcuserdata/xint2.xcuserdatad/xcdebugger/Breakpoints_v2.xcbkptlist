@@ -30,8 +30,8 @@
             filePath = "WoocommerceApp/ApiServices/WebApi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "getAllCategories(_:withCompletionHandler:didFailWithError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -40,15 +40,15 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "72F58C3A-B605-49B8-9F7F-91D7A691807A"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WoocommerceApp/ViewControllers/Home/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
-            landmarkName = "getAllServices()"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "getAllCategories()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -62,9 +62,9 @@
             filePath = "WoocommerceApp/ViewControllers/Home/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "getAllServices()"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "getAllCategories()"
             landmarkType = "7">
             <Locations>
                <Location
@@ -104,7 +104,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "4F20AABD-A7FC-41B5-9821-18CD01E73315"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WoocommerceApp/ApiServices/WebApi.swift"
@@ -168,7 +168,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "3A35EB15-16E2-46CC-A417-106A3ECAFEA1"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WoocommerceApp/ApiServices/HttpClient.swift"
@@ -216,7 +216,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C806D38C-7FA7-4AE9-9497-AC61B15FEF51"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WoocommerceApp/ApiServices/HttpClient.swift"
@@ -232,7 +232,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "4CECF449-CF8C-4D8D-B1E8-30498ED3D871"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WoocommerceApp/ApiServices/WebApi.swift"
@@ -254,137 +254,9 @@
             filePath = "WoocommerceApp/ViewControllers/Home/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "collectionView(_:cellForItemAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D7FA8216-EAB6-4FF7-9537-8747895AC16C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WoocommerceApp/ViewControllers/SideMenu/LeftViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "btnSetting(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D7FA8216-EAB6-4FF7-9537-8747895AC16C - 207947e357b39e99"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WoocommerceApp.LeftViewController.btnSetting(Any) -&gt; ()"
-                  moduleName = "WoocommerceApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/xint2/Downloads/WoocommerceApp/WoocommerceApp/ViewControllers/SideMenu/LeftViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "455">
-               </Location>
-               <Location
-                  uuid = "D7FA8216-EAB6-4FF7-9537-8747895AC16C - 207947e357b39e99"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WoocommerceApp.LeftViewController.btnSetting(Any) -&gt; ()"
-                  moduleName = "WoocommerceApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/xint2/Downloads/WoocommerceApp/WoocommerceApp/ViewControllers/SideMenu/LeftViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "1792">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C76DA2F6-DEA5-4569-BC7E-5BE9233DDCF2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WoocommerceApp/ViewControllers/SideMenu/LeftViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "btnSetting(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C76DA2F6-DEA5-4569-BC7E-5BE9233DDCF2 - 207947e357b39fa1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WoocommerceApp.LeftViewController.btnSetting(Any) -&gt; ()"
-                  moduleName = "WoocommerceApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/xint2/Downloads/WoocommerceApp/WoocommerceApp/ViewControllers/SideMenu/LeftViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "163">
-               </Location>
-               <Location
-                  uuid = "C76DA2F6-DEA5-4569-BC7E-5BE9233DDCF2 - 207947e357b39fa1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WoocommerceApp.LeftViewController.btnSetting(Any) -&gt; ()"
-                  moduleName = "WoocommerceApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/xint2/Downloads/WoocommerceApp/WoocommerceApp/ViewControllers/SideMenu/LeftViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "1493">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "40153B6B-41C0-43D8-B4CE-2E2DBFC1D904"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WoocommerceApp/ViewControllers/SideMenu/LeftViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "btnSetting(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A09A7197-ED79-4B98-B3A1-C18F7B8A1044"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WoocommerceApp/ViewControllers/SideMenu/LeftViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "btnSetting(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -632,14 +504,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E884DD30-2108-43A3-8827-3714EA042B1F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WoocommerceApp/ApiServices/WebApi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "getProductByCategories(_:withCompletionHandler:didFailWithError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -648,19 +520,19 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "FC9B1E64-F3FA-42BA-85AC-DC92CE0E43B5"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WoocommerceApp/ApiServices/WebApi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "getProductByCategories(_:withCompletionHandler:didFailWithError:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "FC9B1E64-F3FA-42BA-85AC-DC92CE0E43B5 - 439c913b27a7e51f"
+                  uuid = "FC9B1E64-F3FA-42BA-85AC-DC92CE0E43B5 - 439c913b27a7e551"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -670,12 +542,12 @@
                   urlString = "file:///Users/xint2/Downloads/WoocommerceApp/WoocommerceApp/ApiServices/WebApi.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "76"
-                  endingLineNumber = "76"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
                   offsetFromSymbolStart = "283">
                </Location>
                <Location
-                  uuid = "FC9B1E64-F3FA-42BA-85AC-DC92CE0E43B5 - 32e7275b4b26c89e"
+                  uuid = "FC9B1E64-F3FA-42BA-85AC-DC92CE0E43B5 - 32e7275b4b26c8d0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -685,8 +557,8 @@
                   urlString = "file:///Users/xint2/Downloads/WoocommerceApp/WoocommerceApp/ApiServices/WebApi.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "77"
-                  endingLineNumber = "77"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
                   offsetFromSymbolStart = "243">
                </Location>
             </Locations>
@@ -696,14 +568,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D1D93A42-7BF9-4827-964F-5BEB3167CCC4"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WoocommerceApp/ApiServices/WebApi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "getProductByCategories(_:withCompletionHandler:didFailWithError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -728,7 +600,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2BA02C83-3B8E-4998-BC4F-3F5E9DC21DB8"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WoocommerceApp/ApiServices/HttpClient.swift"
@@ -769,6 +641,230 @@
             startingLineNumber = "13"
             endingLineNumber = "13"
             landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A7A7E6B-5EDC-41DA-BC69-9D7414B4F8DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoocommerceApp/ApiServices/HttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "getRequest(input:urlString:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52B1B51A-5910-4F82-BDE6-8AB10C41E873"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoocommerceApp/ApiServices/HttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "getRequest(input:urlString:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE5A045D-CAA0-4154-968B-3AACA8DE5F07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoocommerceApp/ApiServices/HttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "getRequest(input:urlString:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "571BEC3F-F566-4CB9-AE20-2F5E19B93AB4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoocommerceApp/ApiServices/WebApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getAllCategories(_:withCompletionHandler:didFailWithError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C18F3E9-6D93-4910-8FC0-CA9CB89164AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoocommerceApp/ApiServices/HttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "getRequest(input:urlString:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5154CC4-92A6-4A35-B293-7DD13D3D34FC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoocommerceApp/ViewControllers/Shop/ShopwithProducts/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "viewController(At:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F5154CC4-92A6-4A35-B293-7DD13D3D34FC - a1c3d3be606a401d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoocommerceApp.ViewController.viewController(At: Swift.Int) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "WoocommerceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xint2/Downloads/WoocommerceApp/WoocommerceApp/ViewControllers/Shop/ShopwithProducts/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "703">
+               </Location>
+               <Location
+                  uuid = "F5154CC4-92A6-4A35-B293-7DD13D3D34FC - a1c3d3be606a401d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoocommerceApp.ViewController.viewController(At: Swift.Int) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "WoocommerceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xint2/Downloads/WoocommerceApp/WoocommerceApp/ViewControllers/Shop/ShopwithProducts/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "1346">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C34CD05A-E96A-4710-B713-E5F641BFFF0F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoocommerceApp/ViewControllers/Shop/ShopwithProducts/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "viewController(At:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37878944-5BDA-4C10-A0BA-0CBD683751C5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoocommerceApp/ViewControllers/Shop/ShopwithProducts/ContentVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "getProcutsByCategories()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "37878944-5BDA-4C10-A0BA-0CBD683751C5 - 56a83d1b2c2b89a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WoocommerceApp.ContentVC.getProcutsByCategories() -&gt; ()"
+                  moduleName = "WoocommerceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xint2/Downloads/WoocommerceApp/WoocommerceApp/ViewControllers/Shop/ShopwithProducts/ContentVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "1079">
+               </Location>
+               <Location
+                  uuid = "37878944-5BDA-4C10-A0BA-0CBD683751C5 - 809737610a706764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;WoocommerceApp.ProductModel&gt;&gt;) -&gt; () in WoocommerceApp.ContentVC.getProcutsByCategories() -&gt; ()"
+                  moduleName = "WoocommerceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xint2/Downloads/WoocommerceApp/WoocommerceApp/ViewControllers/Shop/ShopwithProducts/ContentVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23F703E6-9B45-4160-9A1F-95F150B74893"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoocommerceApp/ViewControllers/Shop/ShopwithProducts/ContentVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "getProcutsByCategories()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0DE4753-CB03-42BF-AAA0-B218425D264B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WoocommerceApp/ViewControllers/SideMenu/LeftViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "LeftViewController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>

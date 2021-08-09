@@ -41,11 +41,17 @@ class WebApi: NSObject {
                 if(result!.count > 0){
                     let fetchingError: Error? = nil
                     let response = [CategoriesModel](dictionaryArray:result as! [NSDictionary] )
+                    
+                   
                     print(response)
                     if(fetchingError == nil)
                     {
                         completion(response)
                     }
+                }else
+                {
+                 //   let error = result?.object(at: "errors") as? [String]
+                  // Error("Error",error?.first)
                 }
 //                if(result?.object(forKey: "success") as! Bool)
 //                {
@@ -58,11 +64,7 @@ class WebApi: NSObject {
 //                   }
 //    
 //                }
-//                else
-//                {
-//                   let error = result?.object(forKey: "errors") as? [String]
-//                   Error("Error",error?.first)
-//                }
+             
              }
           })
        }
@@ -100,11 +102,7 @@ class WebApi: NSObject {
 //                   }
 //
 //                }
-//                else
-//                {
-//                   let error = result?.object(forKey: "errors") as? [String]
-//                   Error("Error",error?.first)
-//                }
+//
           }
        })
     }

@@ -17,7 +17,9 @@ target 'WoocommerceApp' do
   pod 'IQKeyboardManager', '6.2.0'
   pod 'ImageSlideshow', '~> 1.9.0'
   pod 'ViewPager-Swift'
-
+  pod 'MaterialComponents/Snackbar'
+  pod 'MaterialComponents/Dialogs'
+  pod "ViewAnimator"
   target 'WoocommerceAppTests' do
     inherit! :search_paths
     # Pods for testing

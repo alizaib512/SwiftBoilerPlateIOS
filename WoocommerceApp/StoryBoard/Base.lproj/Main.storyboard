@@ -43,12 +43,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hzf-pf-eks" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2205.7971014492755" y="1384.8214285714284"/>
+            <point key="canvasLocation" x="2207" y="1798"/>
         </scene>
-        <!--View Controller-->
+        <!--Shop-->
         <scene sceneID="MKh-Oe-iBk">
             <objects>
-                <viewController id="qTq-4f-cjD" customClass="ViewController" customModule="WoocommerceApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ShopSBID" id="qTq-4f-cjD" customClass="ViewController" customModule="WoocommerceApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6ih-GT-tp2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,7 +62,25 @@
                         <viewLayoutGuide key="safeArea" id="Pom-DZ-BfL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="lIB-ed-qb6"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Shop" id="lIB-ed-qb6">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="IN6-Oc-W9U"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="2br-Ne-FRc">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="he8-Vx-oX4">
+                                <rect key="frame" x="20" y="0.0" width="374" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="list.dash" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSideMenu:" destination="qTq-4f-cjD" eventType="touchUpInside" id="VAk-NV-6me"/>
+                                    <action selector="btnSidemenu:" destination="5en-hw-1hA" eventType="touchUpInside" id="Dq8-ud-1TG"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="menuBarView" destination="NaK-pA-aS7" id="pDa-Kj-3RQ"/>
                     </connections>
@@ -76,11 +94,11 @@
             <objects>
                 <viewController storyboardIdentifier="ShopSDID" id="fWZ-fh-kCQ" customClass="ShopViewController" customModule="WoocommerceApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H8w-Qs-rH8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IQe-rN-2Ja">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Jxm-uD-iIY">
@@ -153,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h9V-dW-q0W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3328" y="1385"/>
+            <point key="canvasLocation" x="4239.130434782609" y="1797.9910714285713"/>
         </scene>
         <!--View Controller1-->
         <scene sceneID="A6i-rG-yDy">
@@ -176,7 +194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ap9-Kn-iAb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4438" y="1385"/>
+            <point key="canvasLocation" x="5347.826086956522" y="1797.9910714285713"/>
         </scene>
         <!--ContentVC-->
         <scene sceneID="nVh-Sh-KYT">
@@ -187,7 +205,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Qv7-81-Fek">
-                                <rect key="frame" x="2" y="44" width="414" height="850"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="850"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0Hp-gQ-axr">
@@ -206,11 +224,11 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WWk-eO-NnU">
-                                                    <rect key="frame" x="10" y="10" width="151" height="175"/>
+                                                    <rect key="frame" x="10" y="10" width="151" height="171"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cAb-2g-O9X">
-                                                            <rect key="frame" x="0.0" y="0.0" width="151" height="127"/>
-                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                            <rect key="frame" x="16" y="0.0" width="120" height="124"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                     <real key="value" value="5"/>
@@ -218,26 +236,33 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tsw-LT-Pdi">
-                                                            <rect key="frame" x="8" y="149" width="134" height="21"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <rect key="frame" x="8" y="142" width="134" height="20"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
+                                                            <color key="textColor" red="0.51660537719999999" green="0.71584647889999997" blue="0.17648652200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="WWk-eO-NnU" firstAttribute="leading" secondItem="Ndq-CF-NxN" secondAttribute="leading" constant="10" id="1X5-Bi-uxx"/>
                                                 <constraint firstItem="WWk-eO-NnU" firstAttribute="top" secondItem="Ndq-CF-NxN" secondAttribute="top" constant="10" id="DMz-YX-t6G"/>
-                                                <constraint firstAttribute="bottom" secondItem="WWk-eO-NnU" secondAttribute="bottom" constant="6" id="U82-Fp-mPI"/>
+                                                <constraint firstAttribute="bottom" secondItem="WWk-eO-NnU" secondAttribute="bottom" constant="10" id="U82-Fp-mPI"/>
                                                 <constraint firstAttribute="trailing" secondItem="WWk-eO-NnU" secondAttribute="trailing" constant="10" id="bLd-aA-jd9"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="171" height="191"/>
                                         <connections>
                                             <outlet property="cellView" destination="WWk-eO-NnU" id="5sq-QX-d3G"/>
+                                            <outlet property="imgProduct" destination="cAb-2g-O9X" id="gxu-qk-VVp"/>
+                                            <outlet property="lblProductName" destination="Tsw-LT-Pdi" id="w4L-S6-vEJ"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -246,18 +271,24 @@
                                     <outlet property="delegate" destination="94Z-an-Gkm" id="cp1-Qd-th4"/>
                                 </connections>
                             </collectionView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4BV-TG-6I8">
+                                <rect key="frame" x="0.0" y="111" width="412" height="376"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WVV-2z-BuE"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="FC5-Il-xeJ"/>
                     <connections>
+                        <outlet property="lottieView" destination="4BV-TG-6I8" id="59U-FK-Afv"/>
                         <outlet property="productCollectionView" destination="Qv7-81-Fek" id="6Ox-PX-lHG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uyz-QO-1u0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4320" y="571"/>
+            <point key="canvasLocation" x="4318.840579710145" y="569.86607142857144"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="F4x-ai-waR">
@@ -288,7 +319,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rmR-tq-zMs" customClass="ImageSlideshow" customModule="ImageSlideshow">
-                                                <rect key="frame" x="20" y="60" width="374" height="286"/>
+                                                <rect key="frame" x="19" y="60" width="375" height="286"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <userDefinedRuntimeAttributes>
@@ -317,10 +348,10 @@
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8RP-XF-cfg">
-                                                                    <rect key="frame" x="10" y="10" width="150" height="190"/>
+                                                                    <rect key="frame" x="10" y="10" width="150" height="186"/>
                                                                     <subviews>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="shN-gU-4Ya">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="150" height="138"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="150" height="135"/>
                                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                             <userDefinedRuntimeAttributes>
                                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -342,7 +373,7 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="trailing" secondItem="8RP-XF-cfg" secondAttribute="trailing" constant="10" id="SeN-fk-CIc"/>
                                                                 <constraint firstItem="8RP-XF-cfg" firstAttribute="top" secondItem="XD0-gh-TbH" secondAttribute="top" constant="10" id="X2o-J7-rlv"/>
-                                                                <constraint firstAttribute="bottom" secondItem="8RP-XF-cfg" secondAttribute="bottom" constant="6" id="YP6-fa-Nsp"/>
+                                                                <constraint firstAttribute="bottom" secondItem="8RP-XF-cfg" secondAttribute="bottom" constant="10" id="YP6-fa-Nsp"/>
                                                                 <constraint firstItem="8RP-XF-cfg" firstAttribute="leading" secondItem="XD0-gh-TbH" secondAttribute="leading" constant="10" id="xfO-Z5-gCM"/>
                                                             </constraints>
                                                         </collectionViewCellContentView>
@@ -372,6 +403,11 @@
                                     <constraint firstItem="fNR-2s-EPX" firstAttribute="top" secondItem="lNa-0A-hUP" secondAttribute="top" id="pWr-la-Qb1"/>
                                 </constraints>
                             </scrollView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zFL-Mk-FQF">
+                                <rect key="frame" x="0.0" y="0.0" width="413" height="524"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OWi-aC-1Ke"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -400,12 +436,13 @@
                     </navigationItem>
                     <connections>
                         <outlet property="categoriesCollectionVeiw" destination="auf-HT-NVN" id="gAe-oj-uny"/>
+                        <outlet property="lottieView" destination="zFL-Mk-FQF" id="h2r-O2-DH0"/>
                         <outlet property="slideShow" destination="rmR-tq-zMs" id="kqs-Ne-Rf8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RgS-nr-vNI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2208.695652173913" y="-342.1875"/>
+            <point key="canvasLocation" x="2207.2463768115945" y="-342.1875"/>
         </scene>
         <!--Flashy Tab Bar Controller-->
         <scene sceneID="Qop-JW-8YM">
@@ -431,6 +468,7 @@
                     <connections>
                         <segue destination="R2S-xQ-YGU" kind="relationship" relationship="viewControllers" id="noq-cE-E62"/>
                         <segue destination="qi3-Aa-w5S" kind="relationship" relationship="viewControllers" id="AV1-15-J87"/>
+                        <segue destination="skW-lh-3Fu" kind="relationship" relationship="viewControllers" id="c7u-0H-PN2"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2vc-lm-d5w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -478,22 +516,28 @@
                             <real key="value" value="4"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="color" keyPath="rightViewLayerBorderColor">
-                            <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="leftViewLayerBorderColor">
+                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="leftViewBackgroundAlpha">
+                            <real key="value" value="0.0"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <segue destination="f92-n4-Oef" kind="custom" identifier="left" customClass="LGSideMenuSegue" customModule="LGSideMenuController" id="8kQ-Zn-qPk"/>
                         <segue destination="189-hx-yDa" kind="custom" identifier="root" customClass="LGSideMenuSegue" customModule="LGSideMenuController" id="u4p-Jy-WfD"/>
+                        <segue destination="QnB-t4-Aug" kind="show" identifier="left" customClass="LGSideMenuSegue" customModule="LGSideMenuController" id="rqd-xd-QrM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1773.913043478261" y="12.723214285714285"/>
         </scene>
-        <!--Left View Controller-->
+        <!--View Controller-->
         <scene sceneID="xli-7r-f1A">
             <objects>
-                <viewController id="f92-n4-Oef" customClass="LeftViewController" customModule="WoocommerceApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="f92-n4-Oef" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Pa-k0-RdM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -647,9 +691,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qi3-Aa-w5S" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Shop" image="shop" id="eZH-J0-SiG"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Kf8-ZD-DKZ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" backIndicatorImage="chevron.backward" catalog="system" id="Kf8-ZD-DKZ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.51660537719999999" green="0.71584647889999997" blue="0.17648652200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -672,10 +717,65 @@
             </objects>
             <point key="canvasLocation" x="3268" y="571"/>
         </scene>
+        <!--Left View Controller-->
+        <scene sceneID="Qwh-qM-K8E">
+            <objects>
+                <tableViewController storyboardIdentifier="LeftViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QnB-t4-Aug" customClass="LeftViewController" customModule="WoocommerceApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="ft4-CX-MU6">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="614"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" id="mxa-1e-BgL" customClass="LeftViewCell" customModule="LGSideMenuControllerDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="55.5" width="250" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mxa-1e-BgL" id="QyM-SU-nln">
+                                    <rect key="frame" x="0.0" y="0.0" width="250" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="QnB-t4-Aug" id="lq2-Ls-kOp"/>
+                            <outlet property="delegate" destination="QnB-t4-Aug" id="oTI-zT-f7x"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="TMJ-7s-IpV"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="250" height="668"/>
+                    <connections>
+                        <outlet property="tableView" destination="ft4-CX-MU6" id="bgV-qt-tIt"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ogU-PH-rvp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1068" y="923"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="hPp-O0-TCI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="skW-lh-3Fu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="g16-1Y-tbA"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="zBv-Vs-NR7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fWZ-fh-kCQ" kind="relationship" relationship="rootViewController" id="1aB-rI-OLB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ztq-iW-L6i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3328.985507246377" y="1797.9910714285713"/>
+        </scene>
     </scenes>
-    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+    <color key="tintColor" red="0.51660537719999999" green="0.71584647889999997" blue="0.17648652200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="Home44" width="1440" height="1920"/>
+        <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="list.dash" catalog="system" width="128" height="85"/>
         <image name="shop" width="32" height="32"/>

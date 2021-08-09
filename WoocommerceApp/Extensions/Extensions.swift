@@ -512,16 +512,11 @@ extension Optional {
 extension UIView {
    
    func dropShadow(scale: Bool = true) {
-      layer.masksToBounds = true
-      layer.shadowColor = UIColor.lightGray.cgColor
-      layer.shadowOpacity = 0.8
-      layer.shadowOffset = CGSize(width: 0, height: 5)
-      layer.shadowRadius = 2
-      layer.borderWidth = 1
-      layer.shouldRasterize = true
-      layer.rasterizationScale = scale ? UIScreen.main.scale : 1
-      layer.borderColor =  UIColor(red:222/255, green:225/255, blue:227/255, alpha: 1).cgColor
-      layer.shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: 5).cgPath
+        layer.cornerRadius = 5.0
+        layer.shadowColor = UIColor.gray.cgColor
+        layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        layer.shadowRadius = 5.0
+        layer.shadowOpacity = 0.7
    }
    
    func addBottomRoundedEdge() {
